@@ -15,3 +15,9 @@ function changeLeastFavoriteCustomer(){
     leastFavoriteCustomer = 'Mido'
     console.log(leastFavoriteCustomer);
 }
+let favoriteCustomer = 'bob';
+function attemptTwoFavoriteCustomers(){
+  let favoriteCustomer = 'not bob';
+
+  throw SyntaxError(SyntaxError)
+}
